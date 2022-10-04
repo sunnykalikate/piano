@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top: 5%;
+}
+
+.set {
+  padding-top: 2%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+
+.blacks {
+  height: 8em;
+  width: 2.5em;
+  margin: 0 0 0 0;
+  z-index:2;
+  border:1px solid #000;
+  border-radius: 0 0 3px 3px;
+  border-color: white;
+  background-color: black;
+  color: white;
+
+}
+
+.whites {
+  height:16em;
+  width:4em;
+  z-index:1;
+  border-left:1px solid #bbb;
+  border-bottom:1px solid #bbb;
+  border-radius:0 0 5px 5px;
+
+}
+
